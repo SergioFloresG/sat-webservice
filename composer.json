@@ -1,0 +1,17 @@
+{
+    "name": "mrgenis/sat-webservice",
+    "description": "Libreria para consumir el webservice proporcionado por la Servicio de Atencion Tributaria.",
+    "keywords" : ["ws","webservice","sat","servicio", "atencion", "tributaria", "mrgenis", "library"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [{"name": "Sergio Flores Genis","email": "sf.genis@outlook.com"}],
+    "autoload": {
+        "psr-4": {
+            "MrGenis\\Sat\\Webservice": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.0"
+    }
+}
